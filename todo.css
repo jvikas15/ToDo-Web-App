@@ -1,0 +1,108 @@
+*{margin: 0;padding: 0;box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;}
+html,body{
+  height: 100%;
+}
+
+.container{
+  height: 100%;width: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  background-color: #003a00;
+  background-image: url(Images/pexels-felixmittermeier-956981.jpg);
+  background-position: center;background-size: cover;
+}
+
+
+.heading{
+  height: 10%;width: 100%;
+  color: gold;  font-size: 10vh; 
+  font-weight: 700;
+  text-align: center;
+  /* text-shadow: 3px 2px 1px 1px yellow; */
+  text-shadow:1px 1px 2px rgb(169, 112, 7),4px 3px 2px wheat,0px 0px 2px rgb(132, 0, 255);
+  
+}
+
+.appbox{border-radius: 15%;
+  height: 70%;width: 70%;
+  background-color: rgba(240, 248, 255, 0.176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5%;
+backdrop-filter: blur(7px); 
+box-shadow: 1px 1px 5px 1px black;
+  
+}
+
+.inputs{
+  height: 30%;
+  width: 90%;
+  /* border: 1px solid green; */
+  border-radius: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+.outputs
+{height:60%;width: 90%;
+  border: 1px solid greenyellow;
+  border-radius: 15%;
+}
+
+.newtask{
+  height: 50%; width: 40%; border-radius: 20%;
+  border: 1px solid wheat;
+}
+.newdate{height: 50%;width: 20%; border: 1px solid wheat; border-radius: 20%;}
+.addbtn{ width:15%;
+  height: 70%;
+  background-color: rgb(2, 88, 2); border: 1px solid rgb(117, 2, 2) ;
+  color: antiquewhite;font-size: large;
+  border-radius: 25%; font-weight: 700;
+}
+.outputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow:auto;
+  flex-direction:column;
+}
+.output{
+  display: flex;
+  
+  height: 25%;
+  width: 100%;
+  
+  gap: 5%;
+
+  overflow:auto;
+  border: 1px solid red;
+  border-radius: 25%;
+  padding: 2%;
+}
+.t{
+height: 90%;width: 45%;border: 1px dotted rgba(0, 0, 255, 0);overflow: auto;text-align: center;
+}
+.d{
+height: 90%;
+width: 25%;border: 1px solid rgba(0, 0, 255, 0.025);text-align: center;
+}
+.delete{
+height: 90%;width:25% ;border: 1px solid rgba(0, 0, 255, 0);background-color: rgb(101, 3, 3);border-radius: 20%;
+}
+
+  
+
+
+.reset{
+  height:10%;width: 10%;border-radius: 100%; border: 1px solid wheat;
+}
+
